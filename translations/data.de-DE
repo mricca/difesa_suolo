@@ -82,7 +82,7 @@
         "permissions": "Genehmigungen",
         "home":{
             "open": "Öffnen",
-            "description": "MapStore 2 wurde entwickelt, um auf einfache und intuitive Weise Karten und Mashups zu erstellen, zu speichern und zu teilen die auf Inhalten von bekannten Quellen wie Google Maps und OpenStreetMap oder von Diensten die auf offenen Protokollen wie OGC WMS, WFS, WMTS or TMS und so weiter basieren.<br/>Besuche die <a href=\"/mapstore/docs/\">Homepage</a> für mehr Details.",
+            "description": "Studien und Datenbanken zum Bodenschutz.",
             "Applications": "Anwendungen",
             "Examples": "Beispiele",
             "LinkedinGroup": "Mapstore Linkedin Gruppe",
@@ -133,6 +133,11 @@
                     "html":"<h3>Raster Styler</h3><p>Style deine Rasterebene</p>"
                 }
             }
+        },
+        "cookiesPolicyNotification": {
+            "title": "Deze website maakt gebruik van cookies",
+            "message": "Door onze website te blijven gebruiken, accepteert u ons gebruik van cookies.",
+            "confirm": "Ik ben het eens"
         },
         "manager": {
             "openInANewTab":"Karte öffnen",
@@ -511,6 +516,7 @@
             "retypePwd": "Passwort wiederholen",
             "passwordMinlenght": "Dein Passwort muss aus mindestens {minSize} Zeichen bestehen",
             "passwordCheckFail": "Passwörter sind nicht identisch!",
+            "passwordInvalid": "Ungültiges Passwort",
             "username": "Benutzername",
             "password": "Passwort",
             "passwordChanged": "Passwort geändert",

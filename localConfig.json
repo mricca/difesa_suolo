@@ -37,6 +37,7 @@
             {
                 "name": "BackgroundSelector",
                 "cfg": {
+                    "bottom": 40,
                     "dimensions": {
                     "side": 65,
                     "sidePreview": 65,
@@ -126,7 +127,8 @@
             }, "Login",
             "OmniBar", "BurgerMenu", "Expander", "GlobeViewSwitcher"
         ],
-        "desktop": ["Map", "HelpLink", "Share", "DrawerMenu", "Version", "BackgroundSelector", {
+        "desktop": ["Map", "HelpLink", "Share", "DrawerMenu", "Version", {"name": "BackgroundSelector", "cfg": { "bottom": 40 } },
+            {
                 "name": "Identify",
                 "showIn": ["IdentifyBar", "Settings"],
                 "cfg": {
@@ -168,7 +170,7 @@
                         "wmts": "http://demo.geo-solutions.it/geoserver/gwc/service/wmts"
                     }
                 }
-            }, "About", "MousePosition", {
+            }, "MousePosition", {
                 "name": "Search",
                 "cfg": {
                     "withToggle": ["max-width: 768px", "min-width: 768px"]
@@ -194,6 +196,11 @@
                     "Toolbar": {
                         "alwaysVisible": true
                     }
+                }
+            }, {
+                "name": "Snapshot",
+                "cfg": {
+                    "wrap": true
                 }
             }, {
                 "name": "ZoomIn",
@@ -223,6 +230,7 @@
               },{
                   "name": "BackgroundSelector",
                   "cfg": {
+                      "bottom": 40,
                       "dimensions": {
                       "side": 65,
                       "sidePreview": 65,
@@ -305,7 +313,7 @@
                 "className": "navbar shadow navbar-home"
             }
         }, "ManagerMenu", "Login", "Language", "Attribution", "ScrollTop"],
-        "maps": ["Header", "Fork", "MapSearch", "HomeDescription", "MapType", "ThemeSwitcher",  "GridContainer", "CreateNewMap", "Maps", "Examples", "Footer"],
+        "maps": ["Header", "MapSearch", "HomeDescription",  "GridContainer", "CreateNewMap", "Maps"],
         "manager": ["Header", "Redirect", "Manager", "Home", "UserManager", "GroupManager", "Footer"]
     }
 }

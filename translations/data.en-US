@@ -82,7 +82,7 @@
         "permissions": "Permissions",
         "home":{
             "open": "Open",
-            "description": "MapStore 2 has been developed to create, save and share in a simple and intuitive way maps and mashups created selecting contents coming from well-known sources like Google Maps and OpenStreetMap or from services provided by organizations using open protocols like OGC WMS, WFS, WMTS or TMS and so on.<br/>Visit the <a href=\"/mapstore/docs/\">home page</a> for more details.",
+            "description": "Studies and databases on soil conservation.",
             "Applications": "Applications",
             "Examples": "Examples",
             "LinkedinGroup": "Mapstore Linkedin Group",
@@ -133,6 +133,11 @@
                     "html":"<h3>Raster Styler</h3><p>Style your raster layer</p>"
                 }
             }
+        },
+        "cookiesPolicyNotification": {
+            "title": "This website uses cookies",
+            "message": "By continuing to use our website you are accepting our use of cookies.",
+            "confirm": "I Agree"
         },
         "manager": {
             "openInANewTab":"Open map",
@@ -511,6 +516,7 @@
             "retypePwd": "Retype Password",
             "passwordMinlenght": "Your password must be at least {minSize} character",
             "passwordCheckFail": "Passwords do not match!",
+            "passwordInvalid": "Invalid password",
             "username": "Username",
             "password": "Password",
             "passwordChanged": "Password changed",

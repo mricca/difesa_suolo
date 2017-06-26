@@ -82,7 +82,7 @@
         "permissions": "Permessi",
         "home":{
             "open": "Apri",
-            "description": "MapStore è sviluppato per creare, salvare e condividere in modo semplice ed intuitivo mappe e mashup creati selezionando contenuti da server come Google Maps, OpenStreetMap, MapQuest o da server specifici forniti dalla propria organizzazione o da terzi. <br/> Visita la <a href=\"/mapstore/docs/\">home page</a> per maggiori dettagli.",
+            "description": "Studi e banche dati sulla difesa del suolo.",
             "Applications": "Applicazioni",
             "Examples": "Esempi",
             "LinkedinGroup": "Gruppo Linkedin Mapstore",
@@ -133,6 +133,11 @@
                     "html":"<h3>Raster Styler</h3><p>Crea stile per dati raster</p>"
                 }
             }
+        },
+        "cookiesPolicyNotification": {
+            "title": "Questo sito utilizza cookies",
+            "message": "Continuando a navigare sul sito acconsenti all'uso dei cookie",
+            "confirm": "Acconsento"
         },
         "manager": {
             "openInANewTab":"Apri mappa",
@@ -511,6 +516,7 @@
             "retypePwd": "Conferma Password",
             "passwordMinlenght": "La password deve essere lunga almeno {minSize} caratteri",
             "passwordCheckFail": "Le due password non corrispondono",
+            "passwordInvalid": "Password non valida",
             "username": "Username",
             "password": "Password",
             "passwordChanged": "La password è stata cambiata",

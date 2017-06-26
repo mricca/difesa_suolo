@@ -32,6 +32,8 @@ module.exports = {
     initialState: {
         defaultState: {
             mousePosition: {enabled: false},
+            maptype: {mapType: "openlayers"},
+            theme: {selectedTheme: {id: "difesa_suolo"}},
             controls: {
                 help: {
                     enabled: false
